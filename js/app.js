@@ -15,17 +15,17 @@ for ( let i = 0; i < 100; i++) {
     // se num è divisibile per 3 e 3 c.l di FizzBuzz
     if (resto3e5 === 0) {
 
-        console.log (num + 'FizzBuzz')
+        console.log ('FizzBuzz')
     }
     // se num è divisibile per 3 c.l di Fizz
     else if (resto3 === 0) {
 
-        console. log (num + 'Fizz')
+        console. log ('Fizz')
     }
     // se num è divisibile per 5 c.l di Buzz 
     else if (resto5 === 0) {
 
-        console.log (num + 'Buzz')
+        console.log ('Buzz')
     }
 
     else {
